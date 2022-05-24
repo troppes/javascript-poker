@@ -27,3 +27,7 @@ For all classes there are unit tests. They can be found in the __test__ folder. 
 ## Documentation
 
 For the documentation use `npm jsdoc`.
+
+## Online version
+
+The deployed version can be found here: [https://troppes.github.io/javascript-poker/](https://troppes.github.io/javascript-poker/)
