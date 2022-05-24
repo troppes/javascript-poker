@@ -1,0 +1,51 @@
+{
+  "name": "2021-2022_p13_poker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Poker Game",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.17.4",
+    "@exercism/eslint-config-javascript": "^0.6.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.25",
+    "babel-jest": "^27.5.1",
+    "core-js": "^3.21.1",
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1",
+    "jest-canvas-mock": "^2.4.0",
+    "jsdoc": "^3.6.10"
+  },
+  "scripts": {
+    "jsdoc": "jsdoc -c ./.jsdoc.conf.json",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose ./src/",
+    "stest": "node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose ./src/__test__",
+    "ptest": "node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose ./src/practica"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "./src/scripts/*.js",
+      "./src/scripts/classes/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 0
+      }
+    },
+    "setupFiles": [
+      "jest-canvas-mock"
+    ],
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
+  },
+  "keywords": [
+    "Javascript",
+    "HTML",
+    "canvas",
+    "events",
+    "Poker"
+  ],
+  "author": "Florian Reitz",
+  "license": "MIT"
+}

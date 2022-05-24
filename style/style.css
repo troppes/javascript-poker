@@ -1,0 +1,45 @@
+body {
+  color: white;
+  background-color: #35654d; 
+}
+
+h1 {
+	text-align: center;
+}
+
+.card {
+  width: 12%;
+  margin: 1%;
+}
+
+.hold {
+  box-shadow: 10px 5px 5px black;
+}
+
+#win-text{
+	font-size: 2em;
+	text-align: center;
+  padding: 2%;
+}
+
+.pure-button {
+  width: 150px;
+  height: 40px;
+}
+
+#playing-field {
+	flex-direction: row;
+}
+
+.center {
+  justify-content: center;
+  text-align: center;
+}
+
+#controls{
+	margin-top: 1%;
+}
+
+.deal-control > *, .hide-control > *, .win-control > *, .step-control > * {
+  margin: 0.5%;
+}
